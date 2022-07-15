@@ -12,12 +12,12 @@ PHP Mailer XOAUTH
    -composer require phpmailer/phpmailer
 8. Run get_oauth_token.php to generate refresh token and put it into config.php
 
-#optional: you can also update other paramters in phpmailer.php 
+#optional: you can also update other paramters in testmail.php 
 //Enter destination email address
 $mail->addAddress('test@example.com', 'Person Name');
 $mail->isHTML(true);
 $mail->Subject = 'Test Email';
 $mail->Body = '<b>Email Body</b>';
 
-9. Test phpmailer.php by running it in browser.
+9. Test testmail.php by running it in browser.
 
